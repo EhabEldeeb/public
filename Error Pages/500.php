@@ -1,7 +1,4 @@
-<?php
-define('SITE_URL', "https://www.ehabeldeeb.com");
-http_response_code(500);
-?>
+<?php http_response_code(500); ?>
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -26,7 +23,7 @@ http_response_code(500);
             </p>
             <p>
                 <a href="javascript:history.back();" class="btn btn-danger">Go Back</a>
-                <a href="<?php echo SITE_URL; ?>" class="btn btn-primary">Go Home</a>
+                <a href="https://www.ehabeldeeb.com" class="btn btn-primary">Go Home</a>
             </p>
         </div>
     </div>

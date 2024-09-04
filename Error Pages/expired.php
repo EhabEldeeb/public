@@ -1,7 +1,4 @@
-<?php
-define('SITE_URL', "https://www.ehabeldeeb.com");
-http_response_code(200);
-?>
+<?php http_response_code(200); ?>
 <!DOCTYPE HTML>
 <html lang="en">
 

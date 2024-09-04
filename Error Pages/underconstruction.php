@@ -1,7 +1,4 @@
-<?php
-define('SITE_URL', "https://www.ehabeldeeb.com");
-http_response_code(200);
-?>
+<?php http_response_code(200); ?>
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -17,8 +14,8 @@ http_response_code(200);
 <body>
     <div class="d-flex align-items-center justify-content-center vh-100">
         <div class="text-center">
-            <p class="display-3 fw-bold text-danger">Your Subscription has Expired!</p>
-            <p class="display-6">Please contact us ASAP to renew your subscription</p>
+            <p class="display-3 fw-bold">This website is under construction</p>
+            <p class="display-4 text-danger">Please come back soon!</p>
             <p>Powered by <a href="https://www.ehabeldeeb.com">Ehab Eldeeb</a></p>
         </div>
     </div>
