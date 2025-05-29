@@ -1,0 +1,14 @@
+Options -FollowSymLinks -Indexes
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+	Order allow,deny
+	Deny from all
+	Satisfy all
+</Files>
+RewriteEngine on
+
+#Error Documents
+ErrorDocument 400 /ErrorPages/400.html
+ErrorDocument 401 /ErrorPages/401.html
+ErrorDocument 403 /ErrorPages/403.html
+ErrorDocument 404 /ErrorPages/404.html
+ErrorDocument 500 /ErrorPages/500.html
